@@ -9,5 +9,6 @@
 	<body>
 		<header>
 			<a href="/">Main</a> |
-			<a href="abouUs.php">About Us </a>
+			<a href="abouUs.php">About Us </a> |
+			<a href="contact.php">Contact</a>
 		</header>

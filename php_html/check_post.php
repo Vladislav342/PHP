@@ -1,4 +1,6 @@
 <?php
+	//print_r($_POST);
+
 	$name = $_POST["name"];
 	$pass = $_POST["password"];
 	$email = $_POST["emailAddres"];
@@ -15,10 +17,15 @@
 		//$pass = md5($pass);
 		//echo "<h1>All Data:</h1><p>$name</p><p>$email</p><p>$pass</p><p>$_POST[message]</p>";
 
-		$_POST["password"] = md5($pass);
+		/*$_POST["password"] = md5($pass);
 		echo "<h1>All Data: </h1>";
 
 		foreach($_POST as $key => $value) {
 			echo "<p>$key : $value</p>";
 		}
+		Here we can connect to database
+		*/
+
+		header('Location: abouUs.php');
+		exit;
 	}
